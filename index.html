@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Randomness study</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<canvas id="canvas"></canvas>
+	<div id="toStart">
+		<div id="text">
+			<h2>Place 10 random dots in this white area</h2>
+			<p>Try to be as random as possible</p>
+			<p>Click anywhere to proceed</p>
+		</div>
+	</div>
+	<div id="completed">
+		<div id="buttons">
+			<button class="submit" onclick="sendMail(); return false">Submit</button>
+			<button class="redraw" onclick="redrawPoints()">Redraw</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>
